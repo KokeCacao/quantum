@@ -1,0 +1,30 @@
+Add_1_to_Coin 2
+Flip 3
+Add_AND_Coin 2 3 4
+Add_Coin 4 2
+Flip 3
+Add_AND_Coin 2 3 1
+Add_AND_Coin 2 3 5
+Add_Coin 5 2
+Flip 3
+Add_AND_Coin 2 3 6
+Add_Coin 6 2
+Flip 3
+Add_AND_Coin 2 3 1
+Add_AND_Coin 2 3 7
+Add_Coin 7 2
+Flip 3
+Add_AND_Coin 2 3 8
+Add_Coin 8 2
+Flip 3
+Add_AND_Coin 2 3 1
+Add_AND_Coin 2 3 9
+Add_Coin 9 2
+Flip 3
+Add_AND_Coin 2 3 10
+Add_Coin 10 2
+Flip 3
+Add_AND_Coin 2 3 1
+Add_AND_Coin 2 3 11
+Add_Coin 11 2
+Print 1
