@@ -46,11 +46,7 @@ func main() {
 		str = strings.TrimSuffix(str, "\n")
 		if len(str) != 0 {
 			ret := q.exec(str)
-			if !quiet {
-				fmt.Println(ret)
-			} else {
-				fmt.Print(ret)
-			}
+			fmt.Print(ret)
 		}
 	}
 }
@@ -107,7 +103,7 @@ func (q *quantum) exec(cmd string) string {
 			return s
 		}
 		q.createVariables(slice[1:])
-		q.variables[slice[3]] = (q.variables[slice[1]] && q.variables[slice[2]]) == q.variables[slice[3]]
+		q.variables[slice[3]] = (q.variables[slice[1]] && q.variables[slice[2]]) != q.variables[slice[3]]
 	case "Print":
 		if s := checkArgs(slice, 2); s != "" {
 			return s
