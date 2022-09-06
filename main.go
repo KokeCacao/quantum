@@ -17,7 +17,7 @@ type quantum struct {
 
 func main() {
 	quiet := false
-	if len(os.Args) > 0 {
+	if len(os.Args) > 1 {
 		switch os.Args[1] {
 		case "--quiet":
 			quiet = true
